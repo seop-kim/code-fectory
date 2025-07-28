@@ -17,9 +17,9 @@ export class AppController {
     @Get()
     getPost(): Post {
         return {
-            author: 'test',
-            title: 'test',
-            content: 'test',
+            author: 'test1',
+            title: 'test1',
+            content: 'test1',
             commentCount: 1,
             likeCount: 1,
         };
